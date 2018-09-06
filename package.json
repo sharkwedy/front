@@ -22,6 +22,7 @@
     "materialize-css": "^1.0.0-rc.2",
     "ngx-materialize": "^6.0.1",
     "rxjs": "^6.0.0",
+    "shelljs": "^0.8.2",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
