@@ -5,7 +5,7 @@ const app = express();
 // Serve only the static files form the dist directory
 //app.use(express.static(__dirname + '/dist/frontend'));
 
-app.get('/', function(req,res) {
+app.use('/', function(req,res) {
 
 //res.sendFile(path.join('/src/index.html'));
 res.sendFile('src/index.html', {root: __dirname});
