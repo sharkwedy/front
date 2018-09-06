@@ -10,7 +10,7 @@ app.use(express.static(__dirname+'/dist/frontend'));
 
 app.get('/', function(req,res) {
 
-res.sendFile(path.join(__dirname+'/dist/frontend/index.html'));
+res.sendFile(path.join('/dist/frontend/'+__dirname+'/index.html'));
 });
 
 // Starting the server
