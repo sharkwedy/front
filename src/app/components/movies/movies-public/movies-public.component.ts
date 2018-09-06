@@ -7,8 +7,7 @@ import { Router } from '@angular/router';
 declare var M: any;
 @Component({
   selector: 'app-movies-public',
-  templateUrl: './movies-public.component.html',
-  styleUrls: ['./movies-public.component.css']
+  templateUrl: './movies-public.component.html'
 })
 export class MoviesPublicComponent implements OnInit {
 
