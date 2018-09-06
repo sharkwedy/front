@@ -6,7 +6,7 @@ const app = express();
 // Settings
 app.set('port', process.env.PORT || 4200);
 
-app.use(express.static('../../app.module.ts'));
+app.use(express.static('../../'));
 
 app.get('/*', function(req,res) {
 
