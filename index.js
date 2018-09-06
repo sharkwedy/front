@@ -10,7 +10,7 @@ app.use(express.static('/app/'));
 
 app.get('/', function(req,res) {
 
-res.sendFile(path.join('/app/index.html'));
+res.sendFile(path.join('index.html'));
 });
 
 // Starting the server
