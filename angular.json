@@ -33,7 +33,7 @@
           },
           "serve": {
                 "options": {
-                    "port": 1337
+                    "port": "process.env.PORT"
                 }
             },
           "configurations": {
