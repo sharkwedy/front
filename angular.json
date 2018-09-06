@@ -31,6 +31,11 @@
               "node_modules/materialize-css/dist/js/materialize.min.js"
             ]
           },
+          "serve": {
+                "options": {
+                    "port": 1337
+                }
+            },
           "configurations": {
             "production": {
               "fileReplacements": [
