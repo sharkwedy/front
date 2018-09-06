@@ -6,7 +6,7 @@ const app = express();
 // Settings
 app.set('port', process.env.PORT || 4200);
 
-app.use(express.static(__dirname+'/dist/frontend'));
+//app.use(express.static(__dirname+'/dist/frontend'));
 
 app.get('/', function(req,res) {
 
