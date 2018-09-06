@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 4200);
 
 app.use('/', function(req,res) {
 
-res.sendFile(path.join('/src/index.html'));
+res.sendFile('/src/index.html');
 
 });
 
