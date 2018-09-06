@@ -1,12 +1,12 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const router = express.Router();
+
 app.set('port', process.env.PORT || 4200);
 
 app.use('/', function(req,res) {
 
-res.sendFile('/src/index.html');
+res.send('/src/main.ts');
 
 });
 
