@@ -8,11 +8,10 @@ app.set('port', process.env.PORT || 4200);
 
 //app.use(express.static(__dirname+'/dist/frontend'));
 
-/*app.use('/', function(req,res) {
+app.use('/', function(req,res) {
 
-res.sendFile(path.join('/index.html'));
-});*/
-app.use('/', require('rout.routes'));
+res.send("Requisição GET");
+});
 // Starting the server
 app.listen(app.get('port'), () => {
     console.log('Server on port', app.get('port'));
