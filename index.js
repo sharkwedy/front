@@ -8,7 +8,7 @@ app.set('port', process.env.PORT || 4200);
 
 app.use(express.static('./'));
 
-app.get('/*', function(req,res) {
+app.get('/', function(req,res) {
 
 res.sendFile(path.join('./index.html'));
 });
