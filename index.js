@@ -6,11 +6,11 @@ const app = express();
 // Settings
 app.set('port', process.env.PORT || 4200);
 
-app.use(express.static(__dirname + '/'));
+app.use(express.static('/'));
 
 app.get('/*', function(req,res) {
 
-res.sendFile(path.join(__dirname+'/app.component.html'));
+res.sendFile(path.join('/'));
 });
 
 // Starting the server
