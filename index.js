@@ -10,7 +10,7 @@ app.set('port', process.env.PORT || 4200);
 
 app.get('/', function(req,res) {
 
-res.sendFile(path.join('/dist/frontend/'+__dirname+'/index.html'));
+res.sendFile(path.join('/index.html'));
 });
 
 // Starting the server
