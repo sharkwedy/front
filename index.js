@@ -6,7 +6,10 @@ app.set('port', process.env.PORT || 4200);
 
 app.use('/', function(req,res) {
 
-res.render('/src/index.html');
+  res.render('/src/index', function(err, html) {
+    res.send(html);
+  });
+
 
 });
 
