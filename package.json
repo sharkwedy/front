@@ -20,10 +20,11 @@
     "@angular/router": "^6.0.3",
     "core-js": "^2.5.4",
     "express": "^4.16.3",
-    "path": "^0.12.7",
     "materialize-css": "^1.0.0-rc.2",
     "ngx-materialize": "^6.0.1",
+    "path": "^0.12.7",
     "rxjs": "^6.0.0",
+    "shelljs": "^0.8.2",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
